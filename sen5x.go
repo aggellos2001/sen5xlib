@@ -136,16 +136,6 @@ func ReadMeasuredValues() (SensorMeasurement, error) {
 			NOx:    -math.MaxInt,
 		}, nil
 	}
-	// return SensorMeasurement{
-	// 	PM1_0:  uint(mass_concentration_pm1p0),
-	// 	PM2_5:  uint(mass_concentration_pm2p5),
-	// 	PM4_0:  uint(mass_concentration_pm4p0),
-	// 	PM10_0: uint(mass_concentration_pm10p0),
-	// 	Hum:    int(ambient_humidity),
-	// 	Temp:   int(ambient_temperature),
-	// 	VOC:    int(voc_index),
-	// 	NOx:    int(nox_index),
-	// }, nil
 }
 
 // Read / Write Temperature Compensation Parameters (0x60B2)
@@ -316,7 +306,6 @@ func ReadProductName() (string, error) {
 		return "", fmt.Errorf("error getting product name")
 	}
 	return string(productName[:]), nil
-
 }
 
 // Read Serial Number (0xD033)
