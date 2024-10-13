@@ -15,4 +15,4 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 
 > [!NOTE]
 > Some of the project files are copied from Sensirion AG under the BSD-3-Clause license. The copyright notice, the list
-> of conditions and the disclaimer have been preserved at the aforementioned files.
+> of conditions and the disclaimer have been preserved at the respective files.
